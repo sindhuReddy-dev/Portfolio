@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="styleSheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand portfolio-head" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+            <a class="nav-link nav-links" href="#homeSection">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-links" href="#aboutSection">About Me</a>
+            <a class="nav-link nav-links" href="#projectSection">Projects</a>
+            <a class="nav-link nav-links" href="#skillSection">Skills</a>
+            <a class="nav-link nav-links" href="#contactSection">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home-section -->
+
+    <div id="homeSection" class="container bg-container d-flex flex-column justify-content-center mb-4">
+        <div class="row g-0">
+            <div class="col-12 col-md-3 order-md-2">
+                <div>
+                    <img src="images/profile Portfolio.jpeg" class="profile"/>
+                </div>
+            </div>
+            <div class="col-12 col-md-9 order-md-1">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Sindhu Reddy</h1>
+                <h1 class="frontend-heading">Frontend Developer</h1>
+                <p>I build responsive web applications using HTML, CSS, JavaScript and I'm currently expanding my skills in React.</p>
+                <div class="mt-4 btn-container">
+                    <a href="#projectSection"><button class="projects-button">View Projects<i class="fa-solid fa-arrow-right arrow-icon"></i></button></a>
+                    <a href="#contactSection"><button class="resume-button">Contact Me </button></a>
+                </div>
+                <div class="contact-list">
+                    <a href="https://github.com/sindhuReddy-dev" target="_blank" class="home-icons"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/sindhu-reddy-025a42255" target="_blank" class="home-icons"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:vangalasindhu26@gmail.com" target="_blank" class="home-icons"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div id="aboutSection" class="container about-container mb-4">
+        <div class="row g-0">
+            <div class="col-12">
+                <h1 class="about-me-heading mb-5">About Me</h1>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="images/profile Portfolio.jpeg" class="about-img"/>
+            </div>
+            <div class="col-12 col-md-8">
+                <p class="about-description mt-5">I'm a passionate Frontend Developer focused on building 
+                    clean, responsive and user-friendly web applications. I enjoy transforming ideas 
+                    into real-world solutions using HTML, CSS, Bootstrap and JavaScript with a strong 
+                    emphasis on simplicity and performance. Currently, I'm enhancing my skills by working 
+                    on practical projects and exploring modern web technologies. I'm driven by continuous 
+                    learning, problem-solving and goal of creating meaningful digital experience that 
+                    deliver real value to users.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+     <div id="projectSection" class="container mb-4">
+        <div class="row g-0">
+            <div class="col-12">
+                <h1 class="project-heading text-center">My Projects</h1>
+                <p class="project-para"></p>
+            </div>
+
+            <div class="col-12 col-md-4 mt-3">
+                <div class="project-card">
+                    <img src="images/Screenshot 2026-04-30 171511.png" class="project-img"/>
+                    <h3 class="project-title">SkillTrack</h3>
+                    <p class="project-description">A skill tracking platform that helps users plan, monitor and improve
+                        their learning journey. Built to encourage consistency and structured growth through simple and intuitive
+                        design.
+                    </p>
+                    <div class="d-flex flex-row mb-3">
+                        <p class="html-language">HTML</p>
+                        <p  class="css-language">CSS</p>
+                        <p  class="js-language">JavaScript</p>
+                    </div>
+                    <a href="https://sindhu-skilltrack.netlify.app/" target="_blank" class="live-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mt-3">
+                <div class="project-card">
+                    <img src="images/Screenshot 2026-04-30 173050.png" class="project-img"/>
+                    <h3 class="project-title">Personal Portfolio</h3>
+                    <p class="project-description">A personal portfolio website to showcase my projects, skills and contact 
+                        information. Designed with a clean and responsive layout to provide a smooth user experience.
+                    </p>
+                    <div class="d-flex flex-row mb-3">
+                        <p class="html-language">HTML</p>
+                        <p  class="css-language">CSS</p>
+                        <p  class="bootstrap">Bootstrap</p>
+                    </div>
+                    <a href="" target="_blank" class="live-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mt-3">
+                <div class="project-card">
+                    <img src="images/Screenshot 2026-04-30 093501.png" class="project-img"/>
+                    <h3 class="project-title">Cafe Landing Page</h3>
+                    <p class="project-description">A modern café landing page designed to showcase a warm and inviting 
+                        coffee experience. It highlights signature beverages, fresh snacks, and a cozy ambiance through
+                        a clean, responsive layout.
+                    </p>
+                    <div class="d-flex flex-row mb-2">
+                        <p class="html-language">HTML</p>
+                        <p  class="css-language">CSS</p>
+                        <p  class="bootstrap">Bootstrap</p>
+                    </div>
+                    <a href="https://cafelandingwebsite.netlify.app/" target="_blank" class="live-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Skills-section -->
+      <div id="skillSection" class="container mb-4">
+        <div class="row g-0">
+            <div class="col-12">
+                <h1 class="skill-heading text-center">Skills</h1>
+            </div>
+            <div class="col-12 skill-container">
+                <div class="skills-list">
+                    <div class="skill text-center">
+                    <img src="images/html-icon.webp" class="skill-img"/>
+                    <p class="skill-title">HTML</p>
+                </div>
+                <div class="skill text-center">
+                    <img src="images/file_type_css_icon_130661.webp" class="skill-img"/>
+                    <p class="skill-title">CSS</p>
+                </div>
+                <div class="skill text-center">
+                    <img src="images/BOOTSTRAP-ICON.png" class="skill-img"/>
+                    <p class="skill-title">Bootstrap</p>
+                </div>
+                </div>
+                <div class="skills-list">
+                    <div class="skill text-center">
+                    <img src="images/JAVASCRIPT-ICON.webp" class="skill-img"/>
+                    <p class="skill-title">JavaScript</p>
+                </div>
+                <div class="skill text-center">
+                    <img src="images/React-icon.svg.png" class="skill-img"/>
+                    <p class="skill-title">React</p>
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Contact-section -->
+
+      <div id="contactSection" class="container mb-4">
+        <div class="row g-0">
+            <div class="col-12">
+                <h1 class="project-heading text-center mb-3">Contact Me</h1>
+                <p class="contact-para text-center">I'm currently looking for Frontend Developer opportunities. Feel free to react out!</p>
+            </div>
+
+            <div class="col-12 col-md-6 mt-5">
+                <h5 class="m-2">Contact Info</h5>
+                <div class="social-card">
+                <p class="social-heading">Email: <a href="mailto:vangalasindhu26@gmail.com">vangalasindhu26@gmail.com</a></p>
+                <p class="social-heading">Location: <span>India</span></p>
+                <p class="social-heading">LinkedIn: <a href="https://linkedin.com/in/sindhu-reddy-025a42255" target="_blank">https://linkedin.com/in/sindhu-reddy-025a42255</a></p>
+                <p class="social-heading">Github: <a href="https://github.com/sindhuReddy-dev" target="_blank">https://github.com/sindhuReddy-dev</a></p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 mt-5">
+                <h5 class="m-2">Send me a message</h5>
+                <form class="contact-form">
+                    <div class="mb-3">
+                        <input type="text" class="input-element" placeholder="Your Name" required/>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="input-element" placeholder="Your Email" required/>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="input-element" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
